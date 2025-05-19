@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil do Usuário - FutUg</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 50px;
+        }
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .profile-container img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .profile-container h2 {
+            margin: 10px 0;
+            color: #003366;
+        }
+        .profile-container p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .profile-container a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="/TCC/LUFME.png" alt="Logo">
+    </div>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="citadino.html">Competições</a>
+        <a href="equipes.html">Equipes</a>
+        <a href="usuario.html">Usuário</a>
+    </nav>
+</header>
+
+<div class="profile-container">
+    <img src="/TCC/usuario.png" alt="Foto do Usuário">
+    <h2>João da Silva</h2>
+    <p>Email: joao@email.com</p>
+    <p>Categoria: Sub-15</p>
+    <a href="#" class="button">Editar Perfil</a>
+</div>
+
+<footer>
+    &copy; 2025 FutUg - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
